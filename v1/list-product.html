@@ -2163,7 +2163,14 @@ License: You must have a valid license purchased only from https://themes.getboo
                                                     <div class="form-group row">
                                                         <div class="col-lg-4">
                                                             <label>Full Name:</label>
-                                                            <input type="email" class="form-control" placeholder="Enter full name">
+                                                            <!-- begin:: Search Text -->
+                                                            <div class="k-input-icon k-input-icon--left">
+                                                                <input type="text" class="form-control" placeholder="Search..." id="generalSearch">
+                                                                <span class="k-input-icon__icon k-input-icon__icon--left">
+                                                                    <span><i class="la la-search"></i></span>
+                                                                </span>
+                                                            </div>
+                                                            <!-- end:: Search Text -->
                                                             <span class="form-text text-muted">Please enter your full name</span> 
                                                         </div>
                                                         <div class="col-lg-4">
@@ -2403,28 +2410,6 @@ License: You must have a valid license purchased only from https://themes.getboo
                                     </div>
                                 </div>
                                 <div class="k-portlet__body">
-                                    <!--begin: Search Form -->
-                                    <div class="k-form k-fork--label-right k-margin-t-20 k-margin-b-10">
-                                        <div class="row align-items-center">
-                                            <div class="col-xl-8 order-2 order-xl-1">
-                                                <div class="row align-items-center">
-                                                    <div class="col-md-4 k-margin-b-20-tablet-and-mobile">
-                                                        <div class="k-input-icon k-input-icon--left">
-                                                            <input type="text" class="form-control" placeholder="Search..." id="generalSearch">
-                                                            <span class="k-input-icon__icon k-input-icon__icon--left">
-                                                                <span><i class="la la-search"></i></span>
-                                                            </span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-4 order-1 order-xl-2 k-align-right">
-                                                <a href="#" class="btn btn-default k-hidden"> <i class="la la-cart-plus"></i> New Order </a>
-                                                <div class="k-separator k-separator--border-dashed k-separator--space-lg d-xl-none"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--end: Search Form -->
                                     <!--begin: Selected Rows Group Action Form -->
                                     <div class="k-form k-fork--label-align-right k-margin-t-20 collapse" id="k_datatable_group_action_form">
                                         <div class="row align-items-center">
